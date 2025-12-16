@@ -1,10 +1,14 @@
 
-baseURL = "https://rescueblast-blog.pages.dev/"
+baseURL = "https://rescueblast.com/"
 languageCode = "en-us"
-title = "RescueBlast Blog"
+title = "RescueBlast"
 theme = "ananke"
-buildFuture = true
-paginate = 10
+
+enableRobotsTXT = true
+buildFuture = false
+
+[pagination]
+pagerSize = 10
 
 [params]
   mainSections = ["posts"]
